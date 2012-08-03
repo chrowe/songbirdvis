@@ -2,7 +2,7 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#"
      xmlns:songbird="http://www.songbirdnest.com/2007/addon-metadata-rdf#">
   <Description about="urn:mozilla:install-manifest">
-    <em:id>{02ea3e21-bcab-c447-9cb1-c867fc907c98}</em:id>
+    <em:id>songbirdvis@example.org</em:id>
     <em:type>2</em:type>
     <em:name>Visualizer.fm</em:name>
     <em:version>1.0.0.0</em:version>
@@ -13,8 +13,8 @@
     <em:targetApplication>
       <Description>
         <em:id>songbird@songbirdnest.com</em:id>
-        <em:minVersion>1.4.1b1</em:minVersion>
-        <em:maxVersion>1.4.*</em:maxVersion>
+        <em:minVersion>2.0.0b1</em:minVersion>
+        <em:maxVersion>2.1.0a</em:maxVersion>
       </Description>
     </em:targetApplication>
     

@@ -1,8 +1,17 @@
 A musichack day project to make a visualizer for Songbird. Read more here:
 http://runningwithdata.tumblr.com/post/655428696/songbirdvis
 
+This version works on Songbird 2.0.0 but only with the demo song.
+
+// INSTALL
+# Put the 'songbirdvis' directory in your songbird extensions directory
+	i.e ~/Library/Application\ Support/Songbird2/Profiles/8oe730k9.dev/extensions (on a Mac)
+# Rename the 'songbirdvis' directory to 'songbirdvis@example.org'
+# add the demo song to your Songbird library and play it: 'songbirdvis@example.org/chrome/content/data/01 - Baby One More Time.mp3'
+# Select the 'Visualizer.fm' Media View.
 
 // TODO: 
+ * Fix echonest json decode function
  * get p.image working in processing.js
  * move to processing.js v0.9.1
  * Get visualizer.fm button to always be showing, and have an icon?

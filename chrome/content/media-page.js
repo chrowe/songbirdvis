@@ -77,6 +77,7 @@ window.mediaPage = {
     
     handleSearchResponse: function(response, contentURL)
     {
+        // TODO: This seems to be broken
         // Get a JS object
         dump('got a response: ' + response + '\n');
         var responseObj = this.JSON.decode(response);

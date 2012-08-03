@@ -172,7 +172,7 @@ window.mediaPage = {
             return;
         }
         
-        var url = "http://beta.developer.echonest.com/api/v4/song/search?api_key=" + API_KEY + "&format=json" +
+        var url = "http://developer.echonest.com/api/v4/song/search?api_key=" + API_KEY + "&format=json" +
         "&results=1&artist=" + artist + "&title=" + title +
         "&bucket=tracks&bucket=audio_summary&bucket=id:paulify";
         

@@ -16,3 +16,4 @@ This version works on Songbird 2.0.0 but only with the demo song.
  * move to processing.js v0.9.1
  * Get visualizer.fm button to always be showing, and have an icon?
  * Change "Extension Loaded" text to Visualizer.fm or something like that.
+Join the chat at https://gitter.im/chrowe/songbirdvis
